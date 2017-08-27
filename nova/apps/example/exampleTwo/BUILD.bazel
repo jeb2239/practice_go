@@ -8,7 +8,7 @@ go_library(
     name = "go_default_library",
     srcs = ["exampleTwo.go"],
     visibility = ["//visibility:private"],
-    deps = ["//common/utils:go_default_library"],
+    deps = ["//nova/common/utils:go_default_library"],
 )
 
 go_binary(
